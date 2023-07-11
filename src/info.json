@@ -1,0 +1,109 @@
+{
+  "firstname": "Shreyas",
+  "lastname": "Mohite",
+  "self":"https://res.cloudinary.com/dwnb0nmg4/image/upload/v1689091792/xdb0r9tguwsfwryrxzne.jpg",
+  "who":["Competitive Programmer 🧑‍💻","Full Stack Developer 🚀", "Problem Solver ✅","Computer Science Student 🧑‍🎓","Machine Learning Enthusiast 🤖"],
+  "aboutMe": "# talk is cheap show me the code🧑‍💻🧑‍💻",
+  "position1":"🥉Finalist and 3rd place holder E-Yantra 2023 @ IIT Bombay",
+  "position2":"👨‍🎓Winter Intern at IEEE Bombay 2022-23",
+  "domains":{
+      "Strong Fundamentals of Data Structures and Algorithms":[],
+      "Programming languages":[
+          "C++","C","JavaScript","Java","Python"
+      ],
+      "RDBMS":[
+          "MySQL","Oracle"
+      ],
+      "Frameworks":[
+        "React Js", "Express Js", "Flask"
+      ],
+      "Hardware Languages":[
+        "Verilog HDL",
+        "Embedded C"
+      ],
+      "Worked on FPGA and Sensors":[]
+  },
+  "socials": [
+      {
+        "link": "https://drive.google.com/file/d/10_ANRwQDmJoNmKgvSXSBCZyisWwrKtgo/view?usp=sharing", 
+        "icon": "https://img.icons8.com/?size=512&id=20471&format=png",
+        "label": "resume"
+      },
+      {
+        "link": "https://www.instagram.com/md.shreyas/",
+        "icon": "https://cdn-icons-png.flaticon.com/128/4494/4494488.png",
+        "label": "instagram"
+      },
+      {
+        "link": "https://github.com/mdshreyas003",
+        "icon":"https://img.icons8.com/?size=512&id=63777&format=png",
+        "label": "github"
+      },
+      {
+        "link": "https://www.linkedin.com/in/shreyas-mohite-92b385220/",
+        "icon": "https://cdn-icons-png.flaticon.com/128/4494/4494497.png",
+        "label": "linkedin"
+      },
+      {
+        "link": "https://discord.gg/cgeWc2QkuK",
+        "icon": "https://img.icons8.com/?size=1x&id=M725CLW4L7wE&format=png",
+        "label": "discord"
+      }
+    ],
+    "projects":{
+      "0":{
+        "image":"https://res.cloudinary.com/dwnb0nmg4/image/upload/v1689091674/vfffb1p2i3w1sak9mkb7.jpg",
+        "heading":"Autonomus Garbage Collector Bot",
+        "description":"Autonomus Bot which travels across the arena. Bot sense and classify the garbage and dump it in respective dumping yard. The bot finds optimal path using dijkstra's algorithm and communicate with laptop using zigbee.",
+        "tech":[
+          "Verilog HDL","RTL Simulation","FPGA","UART","Zigbee","Dijkstra's Algorithm"
+        ],
+        "git":"https://www.linkedin.com/feed/update/urn:li:activity:7050523415916523520/",
+        "live":"https://www.linkedin.com/feed/update/urn:li:activity:7050523415916523520/"
+      },
+      "1":{
+        "image":"https://res.cloudinary.com/dp4ny07vc/image/upload/v1689085356/ohx7cbsssmse8muiegxx.gif",
+        "heading":"Ask SDE",
+        "description":"Most popular cp problem list which can be catagorized by different category. Best cp problems for beginners to advance cp programmers. You can track solved examples. Problems are from codeforces, atcoder and leetcode",
+        "tech":[
+          "React Js","Express Js"
+        ],
+        "git":"https://github.com/mdshreyas003/AskSDE",
+        "live":"https://asksde-ad8be.web.app/"
+      },
+      "2":{
+        "image":"https://res.cloudinary.com/dp4ny07vc/image/upload/v1689085357/h6valseazvjuol1tdef7.gif",
+        "heading":"Medicare",
+        "description":"Developed and trained machine learning model using Naive Bayes classifier with 4000+ samples and 130 features, predict 50+ different diseases with 90percent accuracy. Programmed backend in Flask which efficiently handles requests and merged machine learning model.",
+        "tech":[
+          "JavaScript","Machine Learning", "Flask"
+        ],
+        "git":"https://github.com/mdshreyas003/Symptom_prediction_webApp",
+        "live":"https://mdshreyas123.pythonanywhere.com/"
+      },
+      "3":{
+        "image":"https://res.cloudinary.com/dwnb0nmg4/image/upload/v1689090545/ncatxmexbmbnhatpbq70.gif",
+        "heading":"SuperChar Room",
+        "description":"",
+        "tech":[
+          "React Js","Firebase"
+        ],
+        "git":"https://github.com/mdshreyas003/superchat-room",
+        "live":"https://shreyas-eyrc.web.app/"
+      },
+      "4":{
+        "image":"https://res.cloudinary.com/dwnb0nmg4/image/upload/v1689090634/diixmwasrqr38rbhrtow.png",
+        "heading":"Resume Builder App",
+        "description":"",
+        "tech":[
+          "React Js"
+        ],
+        "git":"https://github.com/mdshreyas003/Resume-maker-app",
+        "live":"https://deluxe-chaja-a559a7.netlify.app/"
+      }
+
+    },
+    "hobbies":[
+      "Chess ♟️","Table tennis 🏓","Cooking 🧑‍🍳"
+    ]
+}
