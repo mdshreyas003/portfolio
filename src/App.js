@@ -7,9 +7,12 @@ import info from './info'
 import { createBrowserRouter, Outlet } from 'react-router-dom'
 import Project from './components/Project'
 import Footer from './components/Footer'
+import ParticlesBg from './particles/ParticlesBg';
+
 function App() {
   return (
-    <div className="cursor-none min-h-screen bg-bg2 w-full flex flex-col  items-center">
+    <div className="cursor-none min-h-screen w-full flex flex-col  items-center select-none">
+      <ParticlesBg darkMode={false} />
       <Cursor />
       <Header/>
       <Outlet/>
