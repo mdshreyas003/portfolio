@@ -8,14 +8,18 @@ import { createBrowserRouter, Outlet } from 'react-router-dom'
 import Project from './components/Project'
 import Footer from './components/Footer'
 import ParticlesBg from './particles/ParticlesBg';
-
+import Colors from './components/Colors'
+import { useState } from 'react'
 function App() {
+  const [background, setBgColor] =  useState('#DCD6C8');
+  const [particle, setParticleColor] =  useState('#5C7C8A');
+  const [links, setLinks] =  useState('#E7B669');
   return (
     <div className="cursor-none min-h-screen w-full flex flex-col  items-center select-none">
-      <ParticlesBg darkMode={false} />
+      <ParticlesBg background={background} particle={particle} links={links} />
       <Cursor />
       <Header/>
-      <Outlet/>
+      <Outlet context={[setLinks, setBgColor, setParticleColor]}/>
       <Footer/>
     </div>
   );
@@ -36,6 +40,10 @@ const app = createBrowserRouter([{
     {
       path:"/projects",
       element:<Project info={info}/>
+    },
+    {
+      path:"/colors",
+      element:<Colors/>
     }
   ]
 }

@@ -1,11 +1,9 @@
 import { useCallback, useEffect, useState } from 'react';
 import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
-const background = (darkMode = false) => (darkMode ? '#0d2538' : '#DCD6C8');
-const particle = (darkMode = false) => (darkMode ? '#c678dd' : '#5C7C8A');
-const links = (darkMode = false) => (darkMode ? '#98c379' : '#E7B669');
 
-const ParticlesBg = ({ darkMode }) => {
+
+const ParticlesBg = ({ background, links, particle}) => {
   const particlesInit = useCallback(async (engine) => {
     await loadFull(engine);
   }, []);
@@ -16,15 +14,15 @@ const ParticlesBg = ({ darkMode }) => {
 
   // const { background, links, particle } = particleBgColors();
 
-  const [backgroundColor, setBgColor] = useState(background(darkMode));
-  const [particleColor, setParticleColor] = useState(particle(darkMode));
-  const [linksColor, setLinksColor] = useState(links(darkMode));
+  const [backgroundColor, setBgColor] = useState(background);
+  const [particleColor, setParticleColor] = useState(particle);
+  const [linksColor, setLinksColor] = useState(links);
 
   useEffect(() => {
-    setBgColor(background(darkMode));
-    setParticleColor(particle(darkMode));
-    setLinksColor(links(darkMode));
-  }, [darkMode, background, links, particle]);
+    setBgColor(background);
+    setParticleColor(particle);
+    setLinksColor(links);
+  }, [ background, links, particle]);
 
   return (
     <Particles

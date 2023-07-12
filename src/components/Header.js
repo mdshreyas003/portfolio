@@ -42,6 +42,9 @@ function Header() {
       >
         Projects
       </Link>
+      <Link to='/colors'>
+        🌟
+      </Link>
     </div>
   );
 }
