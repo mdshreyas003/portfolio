@@ -10,17 +10,19 @@ import Footer from './components/Footer'
 import ParticlesBg from './particles/ParticlesBg';
 import Colors from './components/Colors'
 import { useState } from 'react'
+import Terminal from './components/Terminal'
 function App() {
-  const [background, setBgColor] =  useState('#DCD6C8');
-  const [particle, setParticleColor] =  useState('#5C7C8A');
-  const [links, setLinks] =  useState('#E7B669');
+  const [background, setBgColor] =  useState('#a1d3dd');
+  const [particle, setParticleColor] =  useState('#88aadf');
+  const [links, setLinks] =  useState('#fff');
   return (
-    <div className="cursor-none min-h-screen w-full flex flex-col  items-center select-none">
+    <div className="cursor-none min-h-screen w-full flex flex-col  items-center ">
       <ParticlesBg background={background} particle={particle} links={links} />
       <Cursor />
       <Header/>
       <Outlet context={[setLinks, setBgColor, setParticleColor]}/>
       <Footer/>
+        
     </div>
   );
 }
