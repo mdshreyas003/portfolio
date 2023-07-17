@@ -71,15 +71,15 @@
         "git":"https://github.com/mdshreyas003/AskSDE",
         "live":"https://asksde-ad8be.web.app/"
       },
-      "5":{
+      "2":{
         "image":"https://res.cloudinary.com/dp4ny07vc/image/upload/v1689510376/os1dzevjzrwozb3yfwmg.gif",
         "heading":"SpeedType🚀",
         "description":"Check your typing speed⌛",
         "tech":["React Js"],
         "git":"https://github.com/mdshreyas003/speedtype",
-        "live":"heeps://speedtype.netlify.com"
+        "live":"heeps://speedtype007.netlify.com"
       },
-      "2":{
+      "3":{
         "image":"https://res.cloudinary.com/dp4ny07vc/image/upload/v1689085357/h6valseazvjuol1tdef7.gif",
         "heading":"Medicare",
         "description":"Developed and trained machine learning model using Naive Bayes classifier with 4000+ samples and 130 features, predict 50+ different diseases with 90percent accuracy. Programmed backend in Flask which efficiently handles requests and merged machine learning model.",
@@ -89,7 +89,7 @@
         "git":"https://github.com/mdshreyas003/Symptom_prediction_webApp",
         "live":"https://mdshreyas123.pythonanywhere.com/"
       },
-      "3":{
+      "5":{
         "image":"https://res.cloudinary.com/dwnb0nmg4/image/upload/v1689090545/ncatxmexbmbnhatpbq70.gif",
         "heading":"SuperChar Room",
         "description":"",
