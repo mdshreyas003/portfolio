@@ -71,6 +71,14 @@
         "git":"https://github.com/mdshreyas003/AskSDE",
         "live":"https://asksde-ad8be.web.app/"
       },
+      "5":{
+        "image":"https://res.cloudinary.com/dp4ny07vc/image/upload/v1689510376/os1dzevjzrwozb3yfwmg.gif",
+        "heading":"SpeedType🚀",
+        "description":"Check your typing speed⌛",
+        "tech":["React Js"],
+        "git":"https://github.com/mdshreyas003/speedtype",
+        "live":"heeps://speedtype.netlify.com"
+      },
       "2":{
         "image":"https://res.cloudinary.com/dp4ny07vc/image/upload/v1689085357/h6valseazvjuol1tdef7.gif",
         "heading":"Medicare",
