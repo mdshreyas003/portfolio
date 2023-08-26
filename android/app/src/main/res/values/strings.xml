@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">mdshreyas</string>
+    <string name="title_activity_main">mdshreyas</string>
+    <string name="package_name">com.mdshreyas.app</string>
+    <string name="custom_url_scheme">com.mdshreyas.app</string>
+</resources>

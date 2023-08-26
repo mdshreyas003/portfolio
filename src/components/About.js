@@ -8,7 +8,7 @@ function self(){
                     {info.firstname+info.lastname} $ 
                 </div>
                 <div>
-                &nbsp; vim About{info.firstname}.txt
+                &nbsp; touch About{info.firstname}.txt
                 </div>
             </div>
             <div className=" break-before-right font-mono xs: text-xl lg:text-2xl mt-2">
