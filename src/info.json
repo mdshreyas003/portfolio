@@ -7,12 +7,9 @@
   "position1":"🥉Finalist and 3rd place holder E-Yantra 2023 @ IIT Bombay",
   "position2":"👨‍🎓Winter Intern at IEEE Bombay 2022-23",
   "domains":{
-      "Strong Fundamentals of Data Structures and Algorithms":[],
+      
       "Programming languages":[
-          "C++","C","JavaScript","Java","Python"
-      ],
-      "RDBMS":[
-          "MySQL","Oracle"
+          "C++","C","JavaScript","Java","Python","SQL"
       ],
       "Frameworks":[
         "React Js", "Express Js", "Flask"
@@ -21,7 +18,17 @@
         "Verilog HDL",
         "Embedded C"
       ],
-      "Worked on FPGA and Sensors":[]
+      "Achieveme":[
+        "Secured AIR 3 in the E-Yantra robotics competition by IIT Bombay in 2023.",
+        "3 Star coder on codechef (Max rating 1659). Solved over 400+ problems on different online platforms.",
+        "Runner Up in 48-hr web-dev & ML hackthon Brain-on-it held by PVPIT institute among 50+ teams.",
+        "First Rank in Coding Ninjas’s Campus chapter DSA programming event.",
+        "Winner of Codechef Student chapter competitive coding contest.",
+        "First Rank in State Level Coding event (Around 100 participants) at AMG Kolhapur.",
+        "First Rank in CodeBuzz intercollege competitive-coding contest (Around 150 participants).",
+        "Winner of inter college debate competition IDEALIST2022."
+  
+      ]
   },
   "socials": [
       {
